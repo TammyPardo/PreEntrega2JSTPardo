@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO-->
+    <meta name="description" content="Pagina login">
+    <meta name="keywords" content="Libros, novelas, autor, login">
+  <title>Libreria The Zone Book</title>
+  <script src="https://kit.fontawesome.com/5122bb80de.js" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a class="imgLogo" href="index.html"><img class="" src="/imagenes/Logo.png" alt="logo libreria"></a>
+          
+          <div class="navegador">
+            <p></p>
+            <a href="index.html">Pagina Inicial</a>
+            <p></p>
+            <a href="login.html">Crear Cuenta</a>
+            <p></p>
+            <a href="inicioSesion.html">Iniciar Sesion</a>
+            <p></p>
+          </div>
+    
+          <div class="buscador">
+            <input type="text" name="inputBuscador" id="inputBuscador" placeholder="Ej: El Principito">
+            <button type="button" id="botonBuscador"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+       
+      </header>
+
+  <main>
+    <h3>Ingresa Tus Datos</h3> 
+    <form name="login"> 
+         <table width="200" border="0"> 
+           <tr> 
+             <th scope="row"><h4>Nombres</h4></th> 
+             <td><span class="cnt"> 
+               <input name="nombres" type="text" class="Input" value="" size="20" /> 
+             </span></td> 
+           </tr>
+           <tr> 
+            <th scope="row"><h4>Apellidos</h4></th> 
+            <td><span class="cnt"> 
+              <input name="apollidos" type="text" class="Input" value="" size="20" /> 
+            </span></td> 
+          </tr>
+          <tr> 
+            <th scope="row"><h4>Correo</h4></th> 
+            <td><span class="cnt"> 
+              <input name="correo" type="text" class="Input" value="" size="20" /> 
+            </span></td> 
+          </tr>
+          <tr> 
+            <th scope="row"><h4>Direccion</h4></th> 
+            <td><span class="cnt"> 
+              <input name="direccion" type="text" class="Input" value="" size="20" /> 
+            </span></td> 
+          </tr>
+           <tr> 
+             <th height="33" scope="row"><h4>Clave</h4></th> 
+             <td><span class="cnt"> 
+               <input name="password" type="password" class="Input" value="" size="20" /> 
+             </span></td>
+             <tr> 
+                <th scope="row"><h4>Repite Clave</h4></th> 
+                <td><span class="cnt"> 
+                  <input name="reClave" type="text" class="Input" value="" size="20" /> 
+                </span></td> 
+              </tr> 
+              <br>
+             <td><span class="cnt"> 
+               <input value="Guardar " target="_parent" onclick="Login()" type="button" class="boton"/> 
+             </span></td> 
+           </tr>
+         </table> 
+    </form> 
+  </main>
+      
+    <p></p>
+    <footer>
+        <h5>Todos los derechos Reservados</h5>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js" type="module"></script>
+
+
+</body>
+
+</html>
