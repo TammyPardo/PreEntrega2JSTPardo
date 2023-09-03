@@ -60,7 +60,7 @@
     text-transform: uppercase;
     text-align: end;
   }
-  
+
   
   header a {
     text-decoration: none;
@@ -123,7 +123,23 @@
     min-height: 60vh;
     border-radius: 0.5rem;
     cursor: crosshair;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 6px rgb(68, 67, 67);
+    margin: 2px;
+    border: solid 1px rgb(8, 3, 1);
+    
   }
+
+  .formulario{
+    margin: auto;
+    width: 500px;
+    padding: 1em;
+    border-radius: 1em;
+    background: rgb(0, 0, 0,0.3);
+    box-sizing: border-box 10px 20px;
+    border: 1px solid #CCC;
+  
+}
   
   .tituloInicio {
     align-self: center;
@@ -165,6 +181,7 @@
   .card-producto div input {
     color: rgb(0, 0, 0);
     border-radius: 0rem;
+    color: rgb(226, 194, 194)
   }
   
   .card-carrito {
